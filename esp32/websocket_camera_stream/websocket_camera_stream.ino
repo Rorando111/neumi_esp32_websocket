@@ -29,10 +29,10 @@
 
 
 
-const char* ssid     = "network-name"; // CHANGE HERE
-const char* password = "network-password"; // CHANGE HERE
+const char* ssid     = "ZSG CELESTE-2.4G"; // CHANGE HERE
+const char* password = "rfc102824"; // CHANGE HERE
 
-const char* websockets_server_host = "192.168.1.149"; //CHANGE HERE
+const char* websockets_server_host = "192.168.20.46"; //CHANGE HERE
 const uint16_t websockets_server_port = 3001; // OPTIONAL CHANGE
 
 camera_fb_t * fb = NULL;
