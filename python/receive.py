@@ -41,7 +41,7 @@ async def handle_connection(websocket, path):
 
 async def main():
     """Starts the WebSocket server."""
-    server = await websockets.serve(handle_connection, '0.0.0.0', 3001)
+    server = await websockets.serve(functools.partial(handle_connection, path = None), '0.0.0.0', 3001)
     print("Server started on ws://0.0.0.0:3001")
     await server.wait_closed()
 
