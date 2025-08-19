@@ -28,25 +28,6 @@ neumi_esp32_websocket/
 
 ---
 
-## 🎨 Design Principles
-
-- **Real-time Communication:**  
-  Utilizes WebSocket for bidirectional, event-driven messaging between the ESP32 and clients.
-
-- **Modular Firmware:**  
-  ESP32 code is organized for easy expansion, allowing custom sensors/actuators to be added as components.
-
-- **Cross-Platform Clients:**  
-  Includes sample web and mobile clients to demonstrate interoperability and ease of integration.
-
-- **Robust Error Handling:**  
-  Connection and data integrity are managed with reconnect logic and validation.
-
-- **Documentation First:**  
-  All modules and API endpoints are documented for rapid onboarding and extension.
-
----
-
 ## 📡 How It Works
 
 1. **ESP32 boots and connects to WiFi.**
